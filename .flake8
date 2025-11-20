@@ -1,0 +1,10 @@
+[flake8]
+max-line-length = 79
+exclude = 
+    .git,
+    __pycache__,
+    .venv,
+    venv
+ignore = 
+    E731,  # Lambda assignments (used intentionally for functional style)
+    W503   # Line break before binary operator (newer PEP 8 allows this)
